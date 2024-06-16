@@ -10,7 +10,7 @@ function ListTask({itemArray, setItemArray}) {
     <>
         <h1 className='header'>Todo list</h1>
         <ul className='list'>
-            {itemArray.length === 0 && "No Tudos"}
+            {itemArray.length === 0 && "No Todos"}
             {itemArray.map((item, index)=>{
                 return( 
                     <li key={index}>
