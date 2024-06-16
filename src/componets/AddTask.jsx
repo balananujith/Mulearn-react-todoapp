@@ -7,7 +7,7 @@ function AddTask() {
 
     // Update document title on itemArray change
     useEffect(() => {
-        document.title = `Pending Tasks: ${itemArray.length}`;
+        document.title = `Todo List: ${itemArray.length}`;
     }, [itemArray]);
 
     // Function to handle form submission
